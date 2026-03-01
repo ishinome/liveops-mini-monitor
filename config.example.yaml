@@ -1,0 +1,14 @@
+discord_webhook_url: "Placeholder"
+
+heartbeat_enabled: true
+heartbeat_min_interval_seconds: 86400   # 30 minutes (set to 0 to post every run for testing)
+
+timeout_seconds: 4
+fail_after: 2           # alert only after N consecutive failures
+max_latency_ms: 1200    # alert if response time exceeds this
+
+targets:
+  - name: "Kokeilu"
+    url: "https://google.com"
+  - name: "kokeilu 2"
+    url: "https://search.brave.com"
