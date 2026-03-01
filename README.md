@@ -29,10 +29,14 @@ When SLOW alert: check latency trend, resource usage, upstream dependency, rate 
 Where to check logs: journalctl -u liveops-monitor.service -f
 
 
-## Proof / screenshots:**
+## Proof / screenshots:
 
 <img width="603" height="752" alt="image" src="https://github.com/user-attachments/assets/2c7f0649-bb7c-4233-874a-b5c68b402859" />
+
+## Timer running
 <img width="1139" height="305" alt="image" src="https://github.com/user-attachments/assets/4349296e-f4b8-446e-bc65-8bc19e2b26a6" />
+
+## Output of service
 <img width="1068" height="193" alt="image" src="https://github.com/user-attachments/assets/a2104c22-88c1-454f-b331-0a96d946d193" />
 
 
